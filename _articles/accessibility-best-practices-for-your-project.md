@@ -43,9 +43,9 @@ Add a clear statement that sets expectations and makes it easy for users to repo
 
 ### Goals
 
-* State measurable goals (like [WCAG AA](https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance) where feasible).
-* Primary priorities, and how you meet them (keyboard and screen reader support, captions and transcripts, etc.).
-* Any known limitations, and alternative workarounds (if present).
+* State measurable goals and guidelines (like [WCAG AA](https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance) where feasible).
+* Define primary priorities, and how you meet them (keyboard and screen reader support, captions and transcripts, etc.).
+* Define any known limitations, and alternative workarounds (if present).
 
 ### Contributor requirements
 
@@ -101,7 +101,7 @@ Documentation is often the first "UI" users touch. Make sure everyone can read i
 ### Tables
 
 * Use tables only for tabular data, not for layout.
-* Include **header cells** (`<th>`) and use `scope` attributes to associate headers with data cells.
+* Provide **header cells** to associate column and row headers with data cells.
 * Provide a **caption or summary** describing the table's purpose.
 
 ### Code blocks
@@ -123,8 +123,8 @@ If your project has a web UI, these high-impact defaults will help all users.
 
 ### Semantics first
 
-* Use native HTML elements (`<h1>`, `<button>`, `<a>`, `<input>`, `<label>`) when possible.
-* Use ARIA only when native HTML isn't sufficient. No ARIA is better than bad ARIA. When you do use it, follow the [Accessible Rich Internet Applications (ARIA) documentation](https://www.w3.org/TR/wai-aria/) and ensure all interactive ARIA controls are keyboard accessible.
+* Use **native HTML** elements (`<h1>`, `<button>`, `<a>`, `<input>`, `<label>`) when possible.
+* Use **ARIA** only when native HTML isn't sufficient. No ARIA is better than bad ARIA. When you do use it, follow the [Accessible Rich Internet Applications (ARIA) documentation](https://www.w3.org/TR/wai-aria/) and ensure all interactive ARIA controls are keyboard accessible.
 * Declare the **language** of your document (like `lang="en"` in HTML) and mark up any sections in a different language.
 
 ### Names, labels, instructions
@@ -136,7 +136,7 @@ If your project has a web UI, these high-impact defaults will help all users.
 ### Color and contrast
 
 * Don't use color as the only method to convey meaning ("errors are red").
-* Ensure adequate contrast for text and UI controls (refer to [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/)).
+* Ensure adequate contrast for text, icons, and UI controls (refer to [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/)).
 
 ### Motion and animation
 
@@ -217,7 +217,7 @@ For projects with UI changes, include questions such as:
 * Keyboard navigation works end-to-end
 * Focus states are visible and logical
 * Forms have labels and errors are announced
-* Color isn't the only indicator
+* Color isn't the only method to convey meaning
 * Reduced motion is respected (if animations were added)
 * Screen reader behavior was checked (at least once)
 
@@ -299,4 +299,4 @@ The work you put in today means more people can learn from, contribute to, and r
 
 ### Many thanks to all the maintainers who shared their experiences and tips with us for this guide!
 
-This guide was written by [@mlama007](https://github.com/mlama007) with contributions from: [@ericwbailey](https://github.com/ericwbailey), [@andyfeller](https://github.com/andyfeller), [@mgifford](https://github.com/mgifford), [smockle](https://github.com/smockle), and [weboverhauls](https://github.com/weboverhauls)
+This guide was written by [@mlama007](https://github.com/mlama007) with contributions from: [@ericwbailey](https://github.com/ericwbailey), [@andyfeller](https://github.com/andyfeller), [@mgifford](https://github.com/mgifford), [@smockle](https://github.com/smockle), and [@weboverhauls](https://github.com/weboverhauls)
